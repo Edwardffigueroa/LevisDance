@@ -23,4 +23,12 @@ public class Login extends AppCompatActivity {
 
     }
 
+    public void register(View view){
+
+        Intent intentLog = new Intent(this, Registro.class);
+
+        startActivity(intentLog);
+
+    }
+
 }

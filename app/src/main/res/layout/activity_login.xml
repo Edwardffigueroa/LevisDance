@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="@android:color/white"
+    android:background="@drawable/recurso"
     android:padding="15dp"
     tools:context="com.levisdance.levisdance.Login">
 
@@ -50,6 +50,7 @@
         android:layout_below="@+id/registrarse"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="26dp"
+        android:onClick="register"
         android:text="Si no tienes cuenta Registrate Ahora" />
 
 </RelativeLayout>

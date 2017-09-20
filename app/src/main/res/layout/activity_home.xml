@@ -30,7 +30,7 @@
     <android.support.design.widget.FloatingActionButton
 
         android:id="@+id/agregarFoto"
-        android:onClick="openCamera"
+        android:onClick="agregarFoto"
         android:layout_width="79dp"
         android:layout_height="62dp"
         android:clickable="true"
@@ -57,5 +57,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
         android:layout_alignParentEnd="true" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/toolbar"
+        android:elevation="4dp"
+        android:minHeight="0dp"
+
+
+        android:theme="?attr/actionBarTheme" />
 
 </RelativeLayout>
