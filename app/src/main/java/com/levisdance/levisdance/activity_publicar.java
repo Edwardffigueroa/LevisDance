@@ -14,6 +14,7 @@ public class activity_publicar extends AppCompatActivity {
     }
 
     public void abrirImagen() {
+        //hola mundo
 
         try {
             Intent intent = new Intent(Intent.ACTION_PICK);
